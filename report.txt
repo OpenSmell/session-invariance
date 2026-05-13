@@ -1,0 +1,30 @@
+============================================================
+Session-Invariance Proof Report
+============================================================
+
+Number of samples used: 1360
+Number of substances: 50
+Feature dimension: 12 (mean+std for 6 sensors)
+
+Train samples: 812
+Val samples:   91
+Test samples:  457
+
+Test Accuracy:  74.84%
+Test F1 (macro): 72.28%
+Random baseline: 2.00%
+
+Success criterion (accuracy > 70%): SUCCESS
+
+t-SNE plot: /home/praisejamesx/Documents/Documents/Research/coglab/OpenSmell/SmellNet/opensmell_phase1/latent_tsne.png
+Model: /home/praisejamesx/Documents/Documents/Research/coglab/OpenSmell/SmellNet/opensmell_phase1/model.pth
+
+Anomalies / Warnings:
+  - Single-session substances (train-only): 0
+  - Skipped files: 0
+
+Interpretation:
+  The model achieves >70% accuracy on held-out sessions, demonstrating that the learned latent space is largely invariant to measurement session differences. This supports the hypothesis that a neural network's bottleneck layer can learn session-invariant representations of olfactory data.
+
+t-SNE visualization notes:
+  Classes exceed 20, legend omitted. Points colored by test label index. Clear clustering by substance indicates latent space separation.

@@ -1,0 +1,19 @@
+============================================================
+Session Invariance — 1D-CNN on Raw Time Series
+============================================================
+
+Number of sequences: 3180 (from 300 files)
+Sequence shape:      (100, 6)
+Substances:          50
+Train / Val / Test:  1903 / 212 / 1065
+
+Test Accuracy:       81.78%
+Test F1 (macro):     80.33%
+Random baseline:     2.00%
+Success (>70%):      YES
+
+t-SNE plot: /home/praisejamesx/Documents/Documents/Research/coglab/OpenSmell/SmellNet/opensmell_phase1/latent_tsne_cnn.png
+Model file:  /home/praisejamesx/Documents/Documents/Research/coglab/OpenSmell/SmellNet/opensmell_phase1/model_cnn.pth
+
+Single-session substances (train-only): 0
+Skipped files: 0
