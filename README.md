@@ -1,3 +1,9 @@
+> **Status:** This is the foundational proof that latent spaces can learn session-invariant
+> representations of e-nose data. The universal standard (in development at
+> [`opensmell/universal-encoder`](https://github.com/opensmell/universal-encoder)) extends this
+> approach with MAE pretraining and contrastive fine-tuning for task-agnostic,
+> device-invariant representations.
+
 # Session-Invariance Proof for Electronic Nose Latent Spaces
 
 [![OpenSmell](https://img.shields.io/badge/OpenSmell-project-blue)](https://opensmell.onrender.com)
@@ -71,8 +77,16 @@ After running each script, you'll find:
 All experiments rely solely on raw sensor readings and substance labels.
 No chemistry data (GC-MS) is used.
 
+## See also
+
+- [OpenSmell Project](https://github.com/opensmell) — all repos
+- [Universal Encoder](https://github.com/opensmell/universal-encoder) — MAE + contrastive latent space training
+- [OpenSmell SDK](https://github.com/opensmell/opensmell) — pip-installable inference package
+- [Technical Overview](https://github.com/opensmell/opensmell/blob/main/TECHNICAL.md) — full project technical account
+
 ## Contribute
 
+- Join our [Discord](https://discord.gg/CGER3tHxbH) for discussion and updates.
 - Try running `smellnet_latent_proof_transformer.py` (the Transformer version — may require a GPU to train in reasonable time). Make any necessary tweaks and report your results.
 
 - Any other creative feedback or improvements you can make
